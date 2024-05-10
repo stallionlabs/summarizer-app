@@ -13,7 +13,7 @@ charset-normalizer==2.1.1
 click==8.1.3
 colorama==0.4.6
 contourpy==1.0.5
-cryptography==41.0.3
+cryptography==40.0.2  # Compatible with pyopenssl
 cycler==0.11.0
 docker-pycreds==0.4.0
 et-xmlfile==1.1.0
@@ -46,7 +46,7 @@ protobuf==3.20.3
 psutil==5.9.5
 pycparser==2.21
 pydantic==1.10.2
-pyOpenSSL==23.1.0
+pyOpenSSL==23.1.0  # Ensure compatible version
 pyparsing==3.0.9
 PySocks==1.7.1
 python-dateutil==2.8.2
